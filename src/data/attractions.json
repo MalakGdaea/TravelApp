@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Colosseum",
+        "city": "Rome",
+        "country": "Italy",
+        "entry_price": "$20",
+        "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+        "opening_time": "9:00 AM",
+        "closing_time": "7:00 PM",
+        "categories": [
+            "Most Visited",
+            "Historical"
+        ],
+        "images": [
+            "https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "coordinates": {
+            "lat": 41.8902,
+            "lon": 12.4922
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ferris Wheel",
+        "city": "Santa Monica",
+        "country": "United States",
+        "entry_price": "$10",
+        "address": "380 Santa Monica Pier, Santa Monica, CA 90401, United States",
+        "opening_time": "9:00 AM",
+        "closing_time": "7:00 PM",
+        "categories": [
+            "Most Visited",
+            "Popular"
+        ],
+        "images": [
+            "https://images.pexels.com/photos/9320449/pexels-photo-9320449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ],
+        "coordinates": {
+            "lat": 41.8902,
+            "lon": 12.4922
+        }
+    },
+    {
+        "id": 3,
+        "name": "Eiffel tower",
+        "city": "Paris",
+        "country": "France",
+        "entry_price": "$20",
+        "address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
+        "opening_time": "7:00 AM",
+        "closing_time": "10:45 PM",
+        "categories": [
+            "Most Visited",
+            "Historical"
+        ],
+        "images": [
+            "https://images.pexels.com/photos/3305370/pexels-photo-3305370.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "coordinates": {
+            "lat": 48.8582,
+            "lon": 2.2945
+        }
+    },
+    {
+        "id": 4,
+        "name": "Mount Fuji",
+        "city": "Kitayama",
+        "country": "Japan",
+        "entry_price": "$5",
+        "address": "Kitayama, Fujinomiya, Shizuoka Prefecture 418-0112, Japan",
+        "opening_time": "6:00 AM",
+        "closing_time": "9:00 PM",
+        "categories": [
+            "Recommended",
+            "Historical"
+        ],
+        "images": [
+            "https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "coordinates": {
+            "lat": 35.36083,
+            "lon": 138.7275
+        }
+    },
+    {
+        "id": 5,
+        "name": "Great Wall of China",
+        "city": "northern China",
+        "country": "China",
+        "entry_price": "$30",
+        "address": "Huairou District, China, 101406",
+        "opening_time": "6:00 AM",
+        "closing_time": "9:00 PM",
+        "categories": [
+            "Trending",
+            "Historical"
+        ],
+        "images": [
+            "https://images.pexels.com/photos/10952316/pexels-photo-10952316.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "coordinates": {
+            "lat": 35.36083,
+            "lon": 138.7275
+        }
+    },
+    {
+        "id": 6,
+        "name": "Petra",
+        "city": "Wadi Musa",
+        "country": "Jordan",
+        "entry_price": "$55",
+        "address": "Southern Jordan, near the town of Wadi Musa.",
+        "opening_time": "6:00 AM",
+        "closing_time": "9:00 PM",
+        "categories": [
+            "Recommended",
+            "Historical"
+        ],
+        "images": [
+            "https://images.pexels.com/photos/14743453/pexels-photo-14743453.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "coordinates": {
+            "lat": 35.36083,
+            "lon": 138.7275
+        }
+    }
+]
