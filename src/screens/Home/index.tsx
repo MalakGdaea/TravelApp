@@ -7,8 +7,15 @@ import AttractionCard from "../../components/AttractionCard";
 import jsonData from "../../data/attractions.json";
 import Attraction from "../../Interfaces/Attraction";
 import CATEGORIES from "../../data/categories.json";
+import { useNavigation } from "@react-navigation/native";
+import { StackNavigationProp } from '@react-navigation/stack';
+import RootStackParamList from "../../types/RootStackParamList";
+
+type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
+
 
 const Home = () => {
+    const navigation = useNavigation<HomeScreenNavigationProp>();
     const ALL = 'All';
     const [selectedCategory, setSelectedCategory] = useState(ALL);
     const [data, setData] = useState<Attraction[]>([]);
@@ -48,6 +55,7 @@ const Home = () => {
                     imageSrc={item.images[0]}
                     title={item.name}
                     location={item.city}
+                    onPress={() => navigation.navigate('AttractionDetails', { item })}
                     style={index % 2 === 0 ? { marginRight: 10, marginTop: 10 } : { marginTop: 10 }}
                 />
             )}

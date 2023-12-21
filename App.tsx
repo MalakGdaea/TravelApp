@@ -1,22 +1,25 @@
 import React from 'react';
 import Home from './src/screens/Home';
-import { SafeAreaView, StyleSheet } from 'react-native';
+import 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import AttractionDetails from './src/screens/AttractionDetails';
+import Gallery from './src/screens/Gallery';
+import RootStackParamList from './src/types/RootStackParamList';
 
 
 function App(): JSX.Element {
 
+  const Stack = createStackNavigator<RootStackParamList>();
   return (
-    <SafeAreaView style={styles.container}>
-      <Home />
-    </SafeAreaView>
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{ headerShown: false, cardStyle: { backgroundColor: '#fff' } }}>
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="AttractionDetails" component={AttractionDetails} />
+        <Stack.Screen name="Gallery" component={Gallery} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-  },
-});
 
 export default App;
