@@ -45,8 +45,8 @@
             "https://images.pexels.com/photos/1906879/pexels-photo-1906879.jpeg?auto=compress&cs=tinysrgb&w=600"
         ],
         "coordinates": {
-            "lat": 41.8902,
-            "lon": 12.4922
+            "lat": 34.0086,
+            "lon": -118.4975
         }
     },
     {
@@ -70,8 +70,8 @@
             "https://images.pexels.com/photos/1125212/pexels-photo-1125212.jpeg?auto=compress&cs=tinysrgb&w=600"
         ],
         "coordinates": {
-            "lat": 48.8582,
-            "lon": 2.2945
+            "lat": 48.858844,
+            "lon": 2.294350
         }
     },
     {
@@ -95,8 +95,8 @@
             "https://images.pexels.com/photos/2451040/pexels-photo-2451040.jpeg?auto=compress&cs=tinysrgb&w=600"
         ],
         "coordinates": {
-            "lat": 35.36083,
-            "lon": 138.7275
+            "lat": 35.3606,
+            "lon": 138.7274
         }
     },
     {
@@ -120,8 +120,8 @@
             "https://images.pexels.com/photos/7902329/pexels-photo-7902329.jpeg?auto=compress&cs=tinysrgb&w=600"
         ],
         "coordinates": {
-            "lat": 35.36083,
-            "lon": 138.7275
+            "lat": 40.3657,
+            "lon": 116.0270
         }
     },
     {
@@ -145,8 +145,8 @@
             "https://images.pexels.com/photos/18717331/pexels-photo-18717331/free-photo-of-petra-in-jordan.jpeg?auto=compress&cs=tinysrgb&w=600"
         ],
         "coordinates": {
-            "lat": 35.36083,
-            "lon": 138.7275
+            "lat": 30.3285,
+            "lon": 35.4444
         }
     }
 ]

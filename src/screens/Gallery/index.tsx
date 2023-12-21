@@ -7,12 +7,12 @@ import RootStackParamList from "../../types/RootStackParamList";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
-type AttractionDetailsRouteProp = RouteProp<RootStackParamList, 'Gallery'>;
-type AttractionDetailsNavigationProp = StackNavigationProp<RootStackParamList, 'Gallery'>;
+type GalleryRouteProp = RouteProp<RootStackParamList, 'Gallery'>;
+type GalleryNavigationProp = StackNavigationProp<RootStackParamList, 'Gallery'>;
 
 type GalleryProps = {
-    route: AttractionDetailsRouteProp;
-    navigation: AttractionDetailsNavigationProp;
+    route: GalleryRouteProp;
+    navigation: GalleryNavigationProp;
 };
 
 

@@ -81,6 +81,22 @@ const styles = StyleSheet.create({
         color: "#000",
         fontSize: 30,
         fontWeight: "bold",
+    },
+    mapContainer: {
+        borderRadius: 10,
+        overflow: 'hidden',
+        marginBottom: 5,
+    },
+    map: {
+        width: "100%",
+        height: 200,
+    },
+    mapText: {
+        fontSize: 15,
+        color: '#4681A3',
+        textAlign: 'center',
+        marginBottom: 30,
+        fontWeight: '500'
     }
 })
 
